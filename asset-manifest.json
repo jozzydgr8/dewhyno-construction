@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dewhyno-construction/static/css/main.5ce8569d.css",
+    "main.js": "/dewhyno-construction/static/js/main.5ba2d3bf.js",
+    "static/js/453.825386d9.chunk.js": "/dewhyno-construction/static/js/453.825386d9.chunk.js",
+    "static/media/businessLogo.png": "/dewhyno-construction/static/media/businessLogo.7658cc21663114ed262d.png",
+    "index.html": "/dewhyno-construction/index.html",
+    "main.5ce8569d.css.map": "/dewhyno-construction/static/css/main.5ce8569d.css.map",
+    "main.5ba2d3bf.js.map": "/dewhyno-construction/static/js/main.5ba2d3bf.js.map",
+    "453.825386d9.chunk.js.map": "/dewhyno-construction/static/js/453.825386d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ce8569d.css",
+    "static/js/main.5ba2d3bf.js"
+  ]
+}
