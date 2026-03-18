@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dewhyno-construction/static/css/main.5a30739b.css",
-    "main.js": "/dewhyno-construction/static/js/main.8594908a.js",
+    "main.css": "/dewhyno-construction/static/css/main.99779eaf.css",
+    "main.js": "/dewhyno-construction/static/js/main.a7c87977.js",
     "static/js/453.825386d9.chunk.js": "/dewhyno-construction/static/js/453.825386d9.chunk.js",
     "static/media/businessLogo.jpg": "/dewhyno-construction/static/media/businessLogo.d6d2716f8246051f2ff5.jpg",
     "index.html": "/dewhyno-construction/index.html",
-    "main.5a30739b.css.map": "/dewhyno-construction/static/css/main.5a30739b.css.map",
-    "main.8594908a.js.map": "/dewhyno-construction/static/js/main.8594908a.js.map",
+    "main.99779eaf.css.map": "/dewhyno-construction/static/css/main.99779eaf.css.map",
+    "main.a7c87977.js.map": "/dewhyno-construction/static/js/main.a7c87977.js.map",
     "453.825386d9.chunk.js.map": "/dewhyno-construction/static/js/453.825386d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a30739b.css",
-    "static/js/main.8594908a.js"
+    "static/css/main.99779eaf.css",
+    "static/js/main.a7c87977.js"
   ]
 }
