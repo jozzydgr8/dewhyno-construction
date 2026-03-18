@@ -4,7 +4,7 @@ export const Reason = ()=>{
     return(
         <section id="reason">
             <div className="container-fluid">
-                <h2> Why Choose DeWhyno Construction</h2>
+                <h2 className="heading"> Why Choose DeWhyno Construction</h2>
                 <h4>
                     We bring professional expertise, transparent processes, 
                     and unwavering commitment to every construction project in portharcourt.

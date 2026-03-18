@@ -45,3 +45,36 @@ export const reasonList = [
     "description": "We work within your budget constraints while maintaining quality standards. No hidden costs, just transparent pricing and value delivery."
   }
 ]
+
+
+
+export const serviceList = [
+    {
+      "title": "Building Construction",
+      "description": "We deliver residential, commercial, and institutional buildings using modern construction methods and quality materials."
+    },
+    {
+      "title": "Building Design",
+      "description": "Our building design service focuses on creating functional, aesthetic, and sustainable architectural plans for residential and commercial projects."
+    },
+    {
+      "title": "Estimation & Bill of Quantities",
+      "description": "We offer accurate cost estimation and detailed bills of quantities to help plan and manage construction budgets effectively."
+    },
+    {
+      "title": "Civil Engineering Services",
+      "description": "Our civil engineering services include concrete works, drainage systems, road works and infrastructure development."
+    },
+    {
+      "title": "Project Management",
+      "description": "We Provide end-to-end project management services ensuring cost control, quality assurance, and timely delivery."
+    },
+    {
+      "title": "Renovation & Remodeling",
+      "description": "We transform existing structures through professional renovation and remodelling solutions."
+    },
+    {
+      "title": "Construction Consultancy & Supervision",
+      "description": "Expert advisory and supervision services to ensure compliance with specifications and industry standards."
+    }
+  ]
