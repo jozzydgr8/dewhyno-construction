@@ -1,4 +1,4 @@
-import businessLogo from '../assets/businessLogo.png'
+import businessLogo from '../assets/businessLogo.jpg'
 import { FlatButton } from './FlatButton'
 
 

@@ -15,6 +15,9 @@ export const Reason = ()=>{
                         reasonList.map((reason,index)=>(
                             <div key={index} className="col-md-4">
                                 <div>
+                                    <div>
+                                        {reason.icon}
+                                    </div>
                                     <h3>{reason.title}</h3>
                                     <p>{reason.description}</p>
                                 </div>
