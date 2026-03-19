@@ -1,5 +1,6 @@
 import {TrophyOutlined, BuildOutlined,CalculatorOutlined, 
   ClockCircleOutlined, MessageOutlined, SafetyCertificateOutlined} from '@ant-design/icons';
+  import demoImage from './assets/catimage.jpg'
 
   const color = {
     navyDark:'#0B1F3B',
@@ -50,30 +51,37 @@ export const reasonList = [
 
 export const serviceList = [
     {
+      "image":demoImage,
       "title": "Building Construction",
       "description": "We deliver residential, commercial, and institutional buildings using modern construction methods and quality materials."
     },
     {
+      "image":demoImage,
       "title": "Building Design",
       "description": "Our building design service focuses on creating functional, aesthetic, and sustainable architectural plans for residential and commercial projects."
     },
     {
+      "image":demoImage,
       "title": "Estimation & Bill of Quantities",
       "description": "We offer accurate cost estimation and detailed bills of quantities to help plan and manage construction budgets effectively."
     },
     {
+      "image":demoImage,
       "title": "Civil Engineering Services",
       "description": "Our civil engineering services include concrete works, drainage systems, road works and infrastructure development."
     },
     {
+      "image":demoImage,
       "title": "Project Management",
       "description": "We Provide end-to-end project management services ensuring cost control, quality assurance, and timely delivery."
     },
     {
+      "image":demoImage,
       "title": "Renovation & Remodeling",
       "description": "We transform existing structures through professional renovation and remodelling solutions."
     },
     {
+      "image":demoImage,
       "title": "Construction Consultancy & Supervision",
       "description": "Expert advisory and supervision services to ensure compliance with specifications and industry standards."
     }

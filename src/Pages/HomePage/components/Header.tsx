@@ -7,19 +7,21 @@ export const Header = ()=>{
             <div className="container-fluid">
                 <div className="row">
 
-                    <div className="col-md-8" style={{display: 'flex,',flexDirection: 'column',
-                    justifyContent: 'center',gap:'5px'}}>
+                    <div className="col-md-8" >
 
                         <h1>
                             Building Excellence. Delivering Quality
                         </h1>
+                        <br/>
                         <h3>
                             Professional building construction, building design,
                             civil engineering and project management services.
                         </h3>
+                        <br/>
                         <p>
                             Delivered with integrity, safety, and innovation
                         </p>
+                        <br/>
                         <div>
                             
                             <Row>
