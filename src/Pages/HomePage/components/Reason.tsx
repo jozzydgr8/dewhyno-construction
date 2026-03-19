@@ -5,11 +5,11 @@ export const Reason = ()=>{
         <section id="reason">
             <div className="container-fluid">
                 <h2 className="heading"> Why Choose DeWhyno Construction</h2>
-                <h4 className="heading">
+                <p className="subheading">
                     We bring professional expertise, transparent processes, 
                     and unwavering commitment to every construction project in portharcourt.
 
-                </h4>
+                </p>
                 <br/>
                 <div className="row">
                     {

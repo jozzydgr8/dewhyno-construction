@@ -1,11 +1,12 @@
 import { serviceList } from "../../../Data"
+import { FlatButton } from "../../../shared/FlatButton"
 
 export const Services = ()=>{
     return(
         <section id="services">
             <div className="container-fluid">
                 <h2 className="heading">Our Construction Services</h2>
-                <p className="heading">Comprehensive building solutions for residential and commercial projects across Portharcourt</p>
+                <p className="subheading">Comprehensive building solutions for residential and commercial projects across Portharcourt</p>
                <br/>
                 <div className="row">
                     {
@@ -16,8 +17,8 @@ export const Services = ()=>{
                                          background:`url(${service.image})`, backgroundSize:'cover', backgroundPosition:'center'}}>
 
                                 </div>
-                                <br/>
-                                <div style={{padding: '30px'}}>
+        
+                                <div style={{padding: '25px'}}>
                                     <h3>{service.title}</h3>
                                     <p>{service.description}</p>
                                 </div>
@@ -25,6 +26,11 @@ export const Services = ()=>{
                             </div>
                         ))
                     }
+
+                    <br/>
+                <div style={{textAlign:'center'}}>
+                        <FlatButton title="Get free consultation" className="btn btnPrimary btn-lg"/>
+                </div>
                 </div>
             </div>
         </section>

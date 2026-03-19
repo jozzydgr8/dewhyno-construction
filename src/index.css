@@ -11,7 +11,7 @@
 
   /* Neutral */
   --color-white: #FFFFFF;
-  --color-iceblue: #E6F2FF;
+  --color-iceblue: #CCE5FF;
 }
 
 /* Global Reset */
@@ -36,8 +36,11 @@ a{
 section > .container-fluid, footer > .container-fluid{
   padding:3% 7%;
 }
-.heading{
+.heading, .subheading{
   text-align: center;
+}
+.subheading{
+  color: gray;
 }
 h1{
   font-family: "Montserrat", sans-serif;
@@ -45,9 +48,15 @@ h1{
   font-weight: 900;
   font-style: normal;
 }
-h2,h3{
+h2{
+  font-size:40px;
+  font-weight:900;
+  text-transform: capitalize;
+}
+h3{
   font-weight: 700;
 }
+
 h4, h5, h6{
   font-weight:300;
 }
@@ -133,9 +142,22 @@ gap: 5px;
 }
 .service-container{
   background: var(--color-white);
-  min-height: 470px;
+  min-height: 430px;
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
   
+}
+
+/* cta cta cta */
+#cta{
+  background: var(--color-navy);
+  color: var(--color-white);
+}
+
+.cta-icon{
+  background: var(--color-navy-light);
+  height: fit-content;
+  padding: 5px;
+  border-radius: 7px;
 }

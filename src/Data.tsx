@@ -1,5 +1,5 @@
 import {TrophyOutlined, BuildOutlined,CalculatorOutlined, 
-  ClockCircleOutlined, MessageOutlined, SafetyCertificateOutlined} from '@ant-design/icons';
+  ClockCircleOutlined, MessageOutlined, SafetyCertificateOutlined, PhoneFilled,EnvironmentFilled,MailFilled} from '@ant-design/icons';
   import demoImage from './assets/catimage.jpg'
 
   const color = {
@@ -115,3 +115,60 @@ export const serviceList = [
       "description": "Expert advisory and supervision services to ensure compliance with specifications and industry standards."
     }
   ]
+
+
+  export const processList = [
+  {
+    step: 1,
+    title: "Initial Consultation & Assessment",
+    color: "#1A3A6B",
+    description:
+      "We meet to understand your vision, requirements, and budget. Our team conducts a thorough site assessment and provides expert recommendations."
+  },
+  {
+    step: 2,
+    title: "Planning & Design",
+    color: "red",
+    description:
+      "Detailed project planning, architectural drawings, and cost estimates are prepared. We ensure all plans meet structural requirements and your expectations."
+  },
+  {
+    step: 3,
+    title: "HSE (Health, Safety & Environment)",
+    color: "orange",
+    description:
+      "We implement strict health, safety, and environmental policies to protect workers, clients, and the environment throughout every phase of the project."
+  },
+  {
+    step: 4,
+    title: "Construction Execution",
+    color: "#122C54",
+    description:
+      "Our skilled team brings your project to life with professional workmanship, strict safety protocols, and regular progress updates throughout construction."
+  },
+  {
+    step: 5,
+    title: "Quality Inspection & Handover",
+    color: "green",
+    description:
+      "Final inspections ensure everything meets our quality standards and your requirements. We hand over a completed project ready for occupancy."
+  }
+];
+
+ export const contactInfo = [
+  {
+    icon: <PhoneFilled style={{...reasonIcon}}/>,
+    label: "Call us directly",
+    value: "Available on request"
+  },
+  {
+    icon: <MailFilled style={{...reasonIcon}}/>,
+    label: "Email us anytime",
+    value: "info@brensarck.com"
+  },
+  {
+    icon: <EnvironmentFilled style={{...reasonIcon}}/>,
+    label: "Visit our office",
+    value: "Lagos, Nigeria"
+  }
+];
