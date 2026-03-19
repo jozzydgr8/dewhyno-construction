@@ -1,12 +1,13 @@
 import { Col, Row } from "antd"
-import { contactInfo } from "../../../Data"
+import { contactInfo, ctaFeaturesList } from "../../../Data"
 import { FlatButton } from "../../../shared/FlatButton"
+
 
 export const CTA = ()=>{
     return(
         <section id="cta">
             <div className="container-fluid">
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2>
                             Ready to Start Your Construction Project?
@@ -41,6 +42,24 @@ export const CTA = ()=>{
                                 <FlatButton title="view Projects" className="btn btn-danger btn-lg"/>
                                 </Col>
                             </Row>
+                        </div>
+                    </div>
+
+                    <div className="col-md-6">
+                        <div className="row ">
+                            {
+                                ctaFeaturesList.map(features=>(
+                                    <div key={features.id} className="col-md-6">
+                                        <div className="cta-icon" style={{marginBottom:"10px",  padding:"20px", minHeight:"150px"}}>
+                                            {features.icon}
+                                            
+                                            <p>{features.text}</p>
+                                        </div>
+                                        
+                                    </div>
+                                ))
+                            }
+                            
                         </div>
                     </div>
                 </div>

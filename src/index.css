@@ -60,9 +60,9 @@ h3{
 h4, h5, h6{
   font-weight:300;
 }
-h1,h2, h3, h4, h5, h6{
+/* h1,h2, h3, h4, h5, h6{
   padding: 10px 0;
-}
+} */
 h2, h3, h4, h5, h6{
   font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
@@ -149,6 +149,14 @@ gap: 5px;
   
 }
 
+/* process -process */
+.process-image-container{
+  background-image: url('./assets/construction_building.jpg');
+  height: 350px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+}
 /* cta cta cta */
 #cta{
   background: var(--color-navy);

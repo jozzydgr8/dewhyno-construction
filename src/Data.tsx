@@ -1,6 +1,12 @@
 import {TrophyOutlined, BuildOutlined,CalculatorOutlined, 
+  SafetyCertificateTwoTone,TeamOutlined, 
   ClockCircleOutlined, MessageOutlined, SafetyCertificateOutlined, PhoneFilled,EnvironmentFilled,MailFilled} from '@ant-design/icons';
-  import demoImage from './assets/catimage.jpg'
+  import constructionImage from './assets/foundation.jpg';
+  import consultantImage from './assets/consulant.jpg';
+  import civilImage from './assets/civil_engineering.jpg';
+  import balanceImage from './assets/balance.jpg';
+  import projectImage from './assets/projectmanagement.jpg';
+  import renovationImage from './assets/renovation.jpg'
 
   const color = {
     navyDark:'#0B1F3B',
@@ -8,12 +14,19 @@ import {TrophyOutlined, BuildOutlined,CalculatorOutlined,
     gold:'#B68A2A'
   }
 
+  const featureIcon={
+    color:'white',
+    fontWeight:'900',
+    fontSize:'40px',
+
+  }
   const reasonIcon = {
     fontSize:'27px',
     color:"white",
     padding:'15px',
     borderRadius:'15px'
   }
+  
 // export const reasonList = [
 //   {
 //     "icon":<SafetyCertificateOutlined style={{background:color.navyDark,...reasonIcon }}/>,
@@ -84,33 +97,33 @@ export const reasonList = [
 
 export const serviceList = [
     {
-      image: demoImage,
+      image: constructionImage,
       title: "Building Design & Construction",
       description:
         "We handle both design and construction, delivering functional, modern, and durable buildings from concept to completion."
     },
     {
-      "image":demoImage,
+      "image":balanceImage,
       "title": "Estimation & Bill of Quantities",
       "description": "We offer accurate cost estimation and detailed bills of quantities to help plan and manage construction budgets effectively."
     },
     {
-      "image":demoImage,
+      "image":civilImage,
       "title": "Civil Engineering Services",
       "description": "Our civil engineering services include concrete works, drainage systems, road works and infrastructure development."
     },
     {
-      "image":demoImage,
+      "image":projectImage,
       "title": "Project Management",
       "description": "We Provide end-to-end project management services ensuring cost control, quality assurance, and timely delivery."
     },
     {
-      "image":demoImage,
+      "image":renovationImage,
       "title": "Renovation & Remodeling",
       "description": "We transform existing structures through professional renovation and remodelling solutions."
     },
     {
-      "image":demoImage,
+      "image":consultantImage,
       "title": "Construction Consultancy & Supervision",
       "description": "Expert advisory and supervision services to ensure compliance with specifications and industry standards."
     }
@@ -171,4 +184,11 @@ export const serviceList = [
     label: "Visit our office",
     value: "Lagos, Nigeria"
   }
+];
+
+export const ctaFeaturesList = [
+  { id: 1, text: "Quality Commitment", icon:<h1 style={{...featureIcon}}>100%</h1> },
+  { id: 2, text: "Expert Team", icon:<TeamOutlined style={{...featureIcon}}/> },
+  { id: 3, text: "Safety Standards",icon:<SafetyCertificateTwoTone style={{...featureIcon}}/> },
+  { id: 4, text: "Professional Service", icon:<TrophyOutlined style={{...featureIcon}}/> }
 ];

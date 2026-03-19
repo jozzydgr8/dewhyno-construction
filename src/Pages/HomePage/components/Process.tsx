@@ -1,12 +1,17 @@
 import { processList } from "../../../Data"
+import { FlatButton } from "../../../shared/FlatButton"
 
 export const Process = ()=>{
     return(
-        <section>
+        <section id="process">
             <div className="container-fluid">
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
+                        
+                        <div className="process-image-container">
 
+                        </div>
+                       
                     </div>
                     <div className="col-md-6">
                         <h2>How we work: Your Construction Journey</h2>
@@ -32,8 +37,12 @@ export const Process = ()=>{
                                 </div>
                             ))
                         }
+                        <br/>
+                        <FlatButton title="start your project today" className="btn btn-lg btnPrimary"/>
                     </div>
                 </div>
+                
+                
             </div>
         </section>
     )
