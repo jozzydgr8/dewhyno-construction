@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/dewhyno-construction/static/css/main.b4329df7.css",
-    "main.js": "/dewhyno-construction/static/js/main.1a078ff0.js",
+    "main.css": "/dewhyno-construction/static/css/main.dbd2f09a.css",
+    "main.js": "/dewhyno-construction/static/js/main.3c39454a.js",
     "static/js/453.825386d9.chunk.js": "/dewhyno-construction/static/js/453.825386d9.chunk.js",
+    "static/media/foundation.jpg": "/dewhyno-construction/static/media/foundation.05d442b6021b0384e1ec.jpg",
     "static/media/catimage.jpg": "/dewhyno-construction/static/media/catimage.23f106eace54a53f62fb.jpg",
+    "static/media/construction_building.jpg": "/dewhyno-construction/static/media/construction_building.b0b260c628b4de94dc29.jpg",
+    "static/media/projectmanagement.jpg": "/dewhyno-construction/static/media/projectmanagement.1f82634e79bf9bfc5177.jpg",
+    "static/media/renovation.jpg": "/dewhyno-construction/static/media/renovation.be8510917f6c7ffc0761.jpg",
     "static/media/businessLogo.png": "/dewhyno-construction/static/media/businessLogo.2ff7aa73c485dbd2f127.png",
+    "static/media/consulant.jpg": "/dewhyno-construction/static/media/consulant.19f6db09819f02c76001.jpg",
+    "static/media/civil_engineering.jpg": "/dewhyno-construction/static/media/civil_engineering.0bd8629be56dbea7cdf1.jpg",
+    "static/media/balance.jpg": "/dewhyno-construction/static/media/balance.c3151722c68177ece8bf.jpg",
     "index.html": "/dewhyno-construction/index.html",
-    "main.b4329df7.css.map": "/dewhyno-construction/static/css/main.b4329df7.css.map",
-    "main.1a078ff0.js.map": "/dewhyno-construction/static/js/main.1a078ff0.js.map",
+    "main.dbd2f09a.css.map": "/dewhyno-construction/static/css/main.dbd2f09a.css.map",
+    "main.3c39454a.js.map": "/dewhyno-construction/static/js/main.3c39454a.js.map",
     "453.825386d9.chunk.js.map": "/dewhyno-construction/static/js/453.825386d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4329df7.css",
-    "static/js/main.1a078ff0.js"
+    "static/css/main.dbd2f09a.css",
+    "static/js/main.3c39454a.js"
   ]
 }
