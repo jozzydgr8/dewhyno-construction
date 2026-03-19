@@ -12,11 +12,11 @@ export const Header = ()=>{
                         <h1>
                             Building Excellence. Delivering Quality
                         </h1>
-                        <br/>
-                        <h3>
+                  
+                        <h4>
                             Professional building construction, building design,
                             civil engineering and project management services.
-                        </h3>
+                        </h4>
                         <br/>
                         <p>
                             Delivered with integrity, safety, and innovation

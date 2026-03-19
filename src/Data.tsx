@@ -9,56 +9,85 @@ import {TrophyOutlined, BuildOutlined,CalculatorOutlined,
   }
 
   const reasonIcon = {
-    fontSize:'30px',
+    fontSize:'27px',
     color:"white",
     padding:'15px',
     borderRadius:'15px'
   }
+// export const reasonList = [
+//   {
+//     "icon":<SafetyCertificateOutlined style={{background:color.navyDark,...reasonIcon }}/>,
+//     "title": "Experienced leadership and skilled professionals",
+//     "description": "From initial blueprints to final execution, every project phase is carefully planned to ensure structural integrity and quality outcomes."
+//   },
+//   {
+//     "icon":<BuildOutlined style={{background:'green',...reasonIcon}}/>,
+//     "title": "Strict quality & safety standards",
+//     "description": "Site safety is non-negotiable. We maintain strict safety protocols and professional standards throughout every construction phase."
+//   },
+//   {
+//     "icon":<ClockCircleOutlined style={{background:color.gold,...reasonIcon}}/>,
+//     "title": "timely and cost effective delivery",
+//     "description": "We respect your timeline. Our project management ensures milestones are met and construction is completed within agreed schedules."
+//   },
+//   {
+//     "icon":<MessageOutlined style={{background:'purple',...reasonIcon}}/>,
+//     "title": "client-focused approach",
+//     "description": "Stay informed at every stage. We provide regular updates, clear documentation, and open communication throughout your project."
+//   },
+//   {
+//     "icon":<TrophyOutlined style={{background:'orange',...reasonIcon}}/>,
+//     "title": "compliance with industry regulations",
+//     "description": "We take pride in delivering structurally sound buildings with attention to detail and high standards of professional craftsmanship."
+//   },
+//   {
+//     
+// ]
 export const reasonList = [
   {
-    "icon":<SafetyCertificateOutlined style={{background:color.navyDark,...reasonIcon }}/>,
-    "title": "Well Planned Projects",
-    "description": "From initial blueprints to final execution, every project phase is carefully planned to ensure structural integrity and quality outcomes."
+    icon: <TrophyOutlined style={{ background: color.navyDark, ...reasonIcon }} />,
+    title: "Experienced leadership and skilled professionals",
+    description:
+      "Our team is led by experienced professionals who bring deep industry knowledge and hands-on expertise to deliver high-quality construction projects."
   },
   {
-    "icon":<BuildOutlined style={{background:'green',...reasonIcon}}/>,
-    "title": "Safety First Approach",
-    "description": "Site safety is non-negotiable. We maintain strict safety protocols and professional standards throughout every construction phase."
+    icon: <SafetyCertificateOutlined style={{ background: 'green', ...reasonIcon }} />,
+    title: "Strict quality & safety standards",
+    description:
+      "We enforce rigorous safety protocols and quality control measures to ensure every project meets industry standards and protects everyone on site."
   },
   {
-    "icon":<ClockCircleOutlined style={{background:color.gold,...reasonIcon}}/>,
-    "title": "On-Time Delivery",
-    "description": "We respect your timeline. Our project management ensures milestones are met and construction is completed within agreed schedules."
+    icon: <ClockCircleOutlined style={{ background: color.gold, ...reasonIcon }} />,
+    title: "Timely and cost-effective delivery",
+    description:
+      "Through efficient planning and project management, we deliver projects on schedule while optimizing costs without compromising quality."
   },
   {
-    "icon":<MessageOutlined style={{background:'purple',...reasonIcon}}/>,
-    "title": "Transparent Communication",
-    "description": "Stay informed at every stage. We provide regular updates, clear documentation, and open communication throughout your project."
+    icon: <MessageOutlined style={{ background: 'purple', ...reasonIcon }} />,
+    title: "Client-focused approach",
+    description:
+      "We prioritize clear communication and transparency, keeping you informed and involved at every stage of the construction process."
   },
   {
-    "icon":<TrophyOutlined style={{background:'orange',...reasonIcon}}/>,
-    "title": "Quality Workmanship",
-    "description": "We take pride in delivering structurally sound buildings with attention to detail and high standards of professional craftsmanship."
+    icon: <BuildOutlined style={{ background: 'orange', ...reasonIcon }} />,
+    title: "Compliance with industry regulations",
+    description:
+      "All our projects strictly adhere to local building codes and regulatory requirements, ensuring safe, legal, and reliable structures."
   },
-  {
-    "icon":<CalculatorOutlined style={{background:color.navy,...reasonIcon}}/>,
-    "title": "Budget Conscious",
-    "description": "We work within your budget constraints while maintaining quality standards. No hidden costs, just transparent pricing and value delivery."
-  }
-]
+  {   "icon":<CalculatorOutlined style={{background:color.navy,...reasonIcon}}/>,
+      "title": "Budget Conscious",
+      "description": "We work within your budget constraints while maintaining quality standards. No hidden costs, just transparent pricing and value delivery."
+   }
+];
 
 
 
 export const serviceList = [
     {
-      "image":demoImage,
-      "title": "Building Construction",
-      "description": "We deliver residential, commercial, and institutional buildings using modern construction methods and quality materials."
-    },
-    {
-      "image":demoImage,
-      "title": "Building Design",
-      "description": "Our building design service focuses on creating functional, aesthetic, and sustainable architectural plans for residential and commercial projects."
+      image: demoImage,
+      title: "Building Design & Construction",
+      description:
+        "We handle both design and construction, delivering functional, modern, and durable buildings from concept to completion."
     },
     {
       "image":demoImage,

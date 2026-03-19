@@ -11,6 +11,7 @@
 
   /* Neutral */
   --color-white: #FFFFFF;
+  --color-iceblue: #F0F8FF;
 }
 
 /* Global Reset */
@@ -44,10 +45,19 @@ h1{
   font-weight: 900;
   font-style: normal;
 }
+h2,h3{
+  font-weight: 700;
+}
+h4, h5, h6{
+  font-weight:300;
+}
+h1,h2, h3, h4, h5, h6{
+  padding: 10px 0;
+}
 h2, h3, h4, h5, h6{
   font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+
   font-style: normal;
 }
 /* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
@@ -108,7 +118,24 @@ justify-content: center;
 gap: 5px;
 }
 
+
+/* reason reason */
+.reason-container{
+  background-color: var(--color-iceblue);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  min-height: 350px;
+}
 /* services services */
 #services{
-  background-color: var(--color-navy-light);
+  background-color: var(--color-iceblue);
+}
+.service-container{
+  background: var(--color-white);
+  min-height: 470px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  
 }
