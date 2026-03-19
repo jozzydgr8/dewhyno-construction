@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dewhyno-construction/static/css/main.122dfb76.css",
-    "main.js": "/dewhyno-construction/static/js/main.6ec6d1f0.js",
+    "main.css": "/dewhyno-construction/static/css/main.ccb326f4.css",
+    "main.js": "/dewhyno-construction/static/js/main.9ea847ee.js",
     "static/js/453.825386d9.chunk.js": "/dewhyno-construction/static/js/453.825386d9.chunk.js",
     "static/media/catimage.jpg": "/dewhyno-construction/static/media/catimage.23f106eace54a53f62fb.jpg",
     "static/media/businessLogo.png": "/dewhyno-construction/static/media/businessLogo.2ff7aa73c485dbd2f127.png",
     "index.html": "/dewhyno-construction/index.html",
-    "main.122dfb76.css.map": "/dewhyno-construction/static/css/main.122dfb76.css.map",
-    "main.6ec6d1f0.js.map": "/dewhyno-construction/static/js/main.6ec6d1f0.js.map",
+    "main.ccb326f4.css.map": "/dewhyno-construction/static/css/main.ccb326f4.css.map",
+    "main.9ea847ee.js.map": "/dewhyno-construction/static/js/main.9ea847ee.js.map",
     "453.825386d9.chunk.js.map": "/dewhyno-construction/static/js/453.825386d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.122dfb76.css",
-    "static/js/main.6ec6d1f0.js"
+    "static/css/main.ccb326f4.css",
+    "static/js/main.9ea847ee.js"
   ]
 }
