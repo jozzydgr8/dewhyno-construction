@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dewhyno-construction/static/css/main.ccb326f4.css",
-    "main.js": "/dewhyno-construction/static/js/main.9ea847ee.js",
+    "main.css": "/dewhyno-construction/static/css/main.04b494d6.css",
+    "main.js": "/dewhyno-construction/static/js/main.31be2665.js",
     "static/js/453.825386d9.chunk.js": "/dewhyno-construction/static/js/453.825386d9.chunk.js",
     "static/media/catimage.jpg": "/dewhyno-construction/static/media/catimage.23f106eace54a53f62fb.jpg",
     "static/media/businessLogo.png": "/dewhyno-construction/static/media/businessLogo.2ff7aa73c485dbd2f127.png",
     "index.html": "/dewhyno-construction/index.html",
-    "main.ccb326f4.css.map": "/dewhyno-construction/static/css/main.ccb326f4.css.map",
-    "main.9ea847ee.js.map": "/dewhyno-construction/static/js/main.9ea847ee.js.map",
+    "main.04b494d6.css.map": "/dewhyno-construction/static/css/main.04b494d6.css.map",
+    "main.31be2665.js.map": "/dewhyno-construction/static/js/main.31be2665.js.map",
     "453.825386d9.chunk.js.map": "/dewhyno-construction/static/js/453.825386d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccb326f4.css",
-    "static/js/main.9ea847ee.js"
+    "static/css/main.04b494d6.css",
+    "static/js/main.31be2665.js"
   ]
 }
