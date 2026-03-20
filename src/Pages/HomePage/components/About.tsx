@@ -7,7 +7,7 @@ export const About = ()=>{
                     
                     <div className="col-md-6">
                         <div className="animate-up">
-                            <h3>About Us</h3>
+                            <h2>About Us</h2>
                         <p >
                             Dewhyno building construction limited is a premium construction and project delivery firm
                             dedicated to excellence, innovation, and superiior craftsmanship. We provide bespoke construction
@@ -18,15 +18,11 @@ export const About = ()=>{
                         </p>
                         </div>
                        
-                        {/* <h3 className="animate-up">Our vision</h3>
-                        <p className="animate-up">
-                            To be a trusted construction company delivering sustainable and innovative building solutions
-                            across Nigeria and beyond.
-                        </p> */}
+                       
                       
                     </div>
                     <div className="col-md-6">
-                        <div className="about-container-image"></div>
+                        <div className="about-container-image animate-up"></div>
                         
                     </div>
                 </div>
