@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dewhyno-construction/static/css/main.166892ca.css",
-    "main.js": "/dewhyno-construction/static/js/main.429bee7c.js",
+    "main.css": "/dewhyno-construction/static/css/main.815d2752.css",
+    "main.js": "/dewhyno-construction/static/js/main.2ec7cee3.js",
     "static/js/453.825386d9.chunk.js": "/dewhyno-construction/static/js/453.825386d9.chunk.js",
     "static/media/foundation.jpg": "/dewhyno-construction/static/media/foundation.05d442b6021b0384e1ec.jpg",
     "static/media/catimage.jpg": "/dewhyno-construction/static/media/catimage.23f106eace54a53f62fb.jpg",
@@ -13,12 +13,12 @@
     "static/media/civil_engineering.jpg": "/dewhyno-construction/static/media/civil_engineering.0bd8629be56dbea7cdf1.jpg",
     "static/media/balance.jpg": "/dewhyno-construction/static/media/balance.c3151722c68177ece8bf.jpg",
     "index.html": "/dewhyno-construction/index.html",
-    "main.166892ca.css.map": "/dewhyno-construction/static/css/main.166892ca.css.map",
-    "main.429bee7c.js.map": "/dewhyno-construction/static/js/main.429bee7c.js.map",
+    "main.815d2752.css.map": "/dewhyno-construction/static/css/main.815d2752.css.map",
+    "main.2ec7cee3.js.map": "/dewhyno-construction/static/js/main.2ec7cee3.js.map",
     "453.825386d9.chunk.js.map": "/dewhyno-construction/static/js/453.825386d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.166892ca.css",
-    "static/js/main.429bee7c.js"
+    "static/css/main.815d2752.css",
+    "static/js/main.2ec7cee3.js"
   ]
 }
