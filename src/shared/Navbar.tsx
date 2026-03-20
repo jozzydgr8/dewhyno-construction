@@ -1,6 +1,6 @@
 import businessLogo from '../assets/businessLogo.png'
 import { FlatButton } from './FlatButton'
-
+import { handleRequest } from './handleRequest'
 
 
 export const Navbar = () => {
@@ -25,6 +25,12 @@ export const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
+
+            <li className="nav-item">
+              <a href={`/`} className="nav-link active">
+                   Home
+              </a>
+            </li>
             <li className="nav-item">
               <a href={`#about`} className="nav-link active">
                     About us
@@ -35,15 +41,11 @@ export const Navbar = () => {
                     Services
               </a>
             </li>
+            
             <li className="nav-item">
-              <a href={`#projects`} className="nav-link active">
-                    Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href={`/`} className="nav-link">
-                <FlatButton title='Get Free Consultation' className='btn btnPrimary '/>
-              </a>
+           
+                <FlatButton title='Get Free Consultation' className='btn btnPrimary 'onClick={()=>handleRequest('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')}/>
+             
             </li>
 
           </ul>

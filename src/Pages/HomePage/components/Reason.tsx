@@ -7,7 +7,7 @@ export const Reason = ()=>{
                 <h2 className="heading animate-down"> Why Choose DeWhyno Construction</h2>
                 <p className="subheading">
                     We bring professional expertise, transparent processes, 
-                    and unwavering commitment to every construction project in portharcourt.
+                    and unwavering commitment to every construction project in Nigeria.
 
                 </p>
                 <br/>

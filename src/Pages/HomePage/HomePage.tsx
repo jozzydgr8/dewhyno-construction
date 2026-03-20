@@ -1,5 +1,6 @@
 import { Footer } from "../../shared/Footer"
 import { Navbar } from "../../shared/Navbar"
+import { About } from "./components/About"
 import { CTA } from "./components/CTA"
 import { Header } from "./components/Header"
 import { Process } from "./components/Process"
@@ -11,6 +12,7 @@ export const HomePage = ()=>{
         <>
         <Navbar/>
         <Header/>
+        <About/>
         <Reason/>
         <Services/>
         <Process/>
