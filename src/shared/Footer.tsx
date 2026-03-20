@@ -2,6 +2,7 @@
 import businessLogo from '../assets/businessLogo.png'
 import { contactInfo, serviceList } from '../Data'
 import { FlatButton } from './FlatButton'
+import { handleRequest } from './handleRequest'
 export const Footer = ()=>{
     return(
         <footer>
@@ -48,7 +49,7 @@ export const Footer = ()=>{
                         </div>
                     ))}
                     <br/>
-                    <FlatButton title='Get in Touch' className='btn btn-danger'/>
+                    <FlatButton title='Get in Touch' className='btn btn-danger' onClick={()=>handleRequest('Hi, I’d like to get in touch regarding your construction services. Please let me know how I can proceed.')}/>
                 </div>
 
             </div>

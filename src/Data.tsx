@@ -144,12 +144,12 @@ export const serviceList = [
   {
     icon: <PhoneFilled style={{...reasonIcon}}/>,
     label: "Call us directly",
-    value: "Available on request"
+    value:<a href="tel:+2348080548331">+234 808 054 8331</a>
   },
   {
     icon: <MailFilled style={{...reasonIcon}}/>,
     label: "Email us anytime",
-    value: "info@dewhynoconstrction.ng.com"
+    value: <a href="mailto:info@dewhynoconstruction.ng">info@dewhynoconstruction.ng</a>
   },
   {
     icon: <EnvironmentFilled style={{...reasonIcon}}/>,

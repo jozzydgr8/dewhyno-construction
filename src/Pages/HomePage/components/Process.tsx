@@ -1,6 +1,6 @@
 import { processList } from "../../../Data"
 import { FlatButton } from "../../../shared/FlatButton"
-
+import { handleRequest } from "../../../shared/handleRequest"
 export const Process = ()=>{
     return(
         <section id="process">
@@ -8,7 +8,7 @@ export const Process = ()=>{
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         
-                        <div className="process-image-container">
+                        <div className="process-image-container animate-left">
 
                         </div>
                        
@@ -22,7 +22,7 @@ export const Process = ()=>{
                         {
                             processList.map(process=>(
                                 <div key={process.step}>
-                                    <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'15px'}}>
+                                    <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'15px'}} className="animate-up">
                                     <div style={{
                                         color:'white', 
                                         background:`${process.color}`, padding:"5px 22px", borderRadius:'80%'
@@ -38,7 +38,7 @@ export const Process = ()=>{
                             ))
                         }
                         <br/>
-                        <FlatButton title="start your project today" className="btn btn-lg btnPrimary"/>
+                        <FlatButton onClick={()=>handleRequest('Hi, I’m ready to start a construction project and would like to discuss the next steps. Please let me know how we can proceed.')} title="start your project today" className="btn btn-lg btnPrimary animate-up"/>
                     </div>
                 </div>
                 

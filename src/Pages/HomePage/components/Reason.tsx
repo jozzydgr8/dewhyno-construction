@@ -4,7 +4,7 @@ export const Reason = ()=>{
     return(
         <section id="reason">
             <div className="container-fluid">
-                <h2 className="heading"> Why Choose DeWhyno Construction</h2>
+                <h2 className="heading animate-down"> Why Choose DeWhyno Construction</h2>
                 <p className="subheading">
                     We bring professional expertise, transparent processes, 
                     and unwavering commitment to every construction project in portharcourt.
@@ -15,7 +15,7 @@ export const Reason = ()=>{
                     {
                         reasonList.map((reason,index)=>(
                             <div key={index} className="col-md-4">
-                                <div className="reason-container">
+                                <div className="reason-container animate-up">
                                     <div>
                                         {reason.icon}
                                     </div>
