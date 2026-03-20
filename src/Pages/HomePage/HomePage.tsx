@@ -1,3 +1,4 @@
+import { Footer } from "../../shared/Footer"
 import { Navbar } from "../../shared/Navbar"
 import { CTA } from "./components/CTA"
 import { Header } from "./components/Header"
@@ -14,6 +15,7 @@ export const HomePage = ()=>{
         <Services/>
         <Process/>
         <CTA/>
+        <Footer/>
         </>
     )
 }

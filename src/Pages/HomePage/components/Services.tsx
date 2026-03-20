@@ -21,8 +21,12 @@ export const Services = ()=>{
                                 <div style={{padding: '25px'}}>
                                     <h3>{service.title}</h3>
                                     <p>{service.description}</p>
+                                  
+                                <FlatButton title="Start your Project" className="btn btnPrimary"/>
                                 </div>
+                                
                                 </div>
+                                
                             </div>
                         ))
                     }

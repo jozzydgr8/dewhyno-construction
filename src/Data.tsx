@@ -27,35 +27,7 @@ import {TrophyOutlined, BuildOutlined,CalculatorOutlined,
     borderRadius:'15px'
   }
   
-// export const reasonList = [
-//   {
-//     "icon":<SafetyCertificateOutlined style={{background:color.navyDark,...reasonIcon }}/>,
-//     "title": "Experienced leadership and skilled professionals",
-//     "description": "From initial blueprints to final execution, every project phase is carefully planned to ensure structural integrity and quality outcomes."
-//   },
-//   {
-//     "icon":<BuildOutlined style={{background:'green',...reasonIcon}}/>,
-//     "title": "Strict quality & safety standards",
-//     "description": "Site safety is non-negotiable. We maintain strict safety protocols and professional standards throughout every construction phase."
-//   },
-//   {
-//     "icon":<ClockCircleOutlined style={{background:color.gold,...reasonIcon}}/>,
-//     "title": "timely and cost effective delivery",
-//     "description": "We respect your timeline. Our project management ensures milestones are met and construction is completed within agreed schedules."
-//   },
-//   {
-//     "icon":<MessageOutlined style={{background:'purple',...reasonIcon}}/>,
-//     "title": "client-focused approach",
-//     "description": "Stay informed at every stage. We provide regular updates, clear documentation, and open communication throughout your project."
-//   },
-//   {
-//     "icon":<TrophyOutlined style={{background:'orange',...reasonIcon}}/>,
-//     "title": "compliance with industry regulations",
-//     "description": "We take pride in delivering structurally sound buildings with attention to detail and high standards of professional craftsmanship."
-//   },
-//   {
-//     
-// ]
+
 export const reasonList = [
   {
     icon: <TrophyOutlined style={{ background: color.navyDark, ...reasonIcon }} />,
@@ -177,12 +149,12 @@ export const serviceList = [
   {
     icon: <MailFilled style={{...reasonIcon}}/>,
     label: "Email us anytime",
-    value: "info@brensarck.com"
+    value: "info@dewhynoconstrction.ng.com"
   },
   {
     icon: <EnvironmentFilled style={{...reasonIcon}}/>,
     label: "Visit our office",
-    value: "Lagos, Nigeria"
+    value: "portharcourt, Nigeria"
   }
 ];
 

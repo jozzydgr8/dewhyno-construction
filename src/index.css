@@ -60,9 +60,7 @@ h3{
 h4, h5, h6{
   font-weight:300;
 }
-/* h1,h2, h3, h4, h5, h6{
-  padding: 10px 0;
-} */
+/*  */
 h2, h3, h4, h5, h6{
   font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
@@ -142,7 +140,7 @@ gap: 5px;
 }
 .service-container{
   background: var(--color-white);
-  min-height: 430px;
+  min-height: 460px;
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -168,4 +166,13 @@ gap: 5px;
   height: fit-content;
   padding: 5px;
   border-radius: 7px;
+}
+
+footer{
+  background: var(--color-navy-dark);
+  color:var(--color-white);
+}
+
+footer img{
+  width:80%;
 }
