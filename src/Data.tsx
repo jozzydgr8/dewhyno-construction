@@ -1,7 +1,7 @@
 import {TrophyOutlined, BuildOutlined,CalculatorOutlined, 
   SafetyCertificateTwoTone,TeamOutlined, 
   ClockCircleOutlined, MessageOutlined, SafetyCertificateOutlined, PhoneFilled,EnvironmentFilled,MailFilled} from '@ant-design/icons';
-  import constructionImage from './assets/foundation.jpg';
+  import constructionImage from './assets/dewhynofoundation.jpg';
   import consultantImage from './assets/consulant.jpg';
   import civilImage from './assets/civil_engineering.jpg';
   import balanceImage from './assets/balance.jpg';
