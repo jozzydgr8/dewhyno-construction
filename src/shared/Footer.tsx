@@ -55,7 +55,10 @@ export const Footer = ()=>{
             </div>
             <hr/>
             <div>
-                <a href='https://jozzycodes.com'>All Rights Reserved © Dewhyno construction</a>
+                <p>All Rights Reserved © Dewhyno construction</p>
+            </div>
+            <div>
+                <small > <a style={{color:'gray'}} href='https://jozzycodes.com'>Built by jozzycodes</a></small>
             </div>
 
                 
